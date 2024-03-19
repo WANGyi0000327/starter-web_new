@@ -23,6 +23,7 @@ const ServerNumber = import.meta.env.VITE_APP_SERVER_ID
 
 // 地址对象
 export const baseUrl = domainLsit[ServerNumber];
+console.log('🌳-----baseUrl-----', baseUrl);
 
 // api接口
 export const apiServer = baseUrl;
